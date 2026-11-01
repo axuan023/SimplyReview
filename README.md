@@ -29,7 +29,7 @@ compared with the raw star average, across **6,095 products**.
 
 source data: [Amazon Reviews 2023](https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023) (McAuley Lab).
 
-## Run it
+## how to run the program
 
 ```powershell
 python -m venv .venv
@@ -41,15 +41,6 @@ this downloads the reviews, prints the results, and saves the tuned numbers to `
 
 then load the extension: go to `chrome://extensions`, turn on dev mode, click **Load unpacked**, and choose the `extension` folder.
 
-## Folders
-
-```
-extension/              the chrome extension
-notebooks/
-  01_backtest.py        tests the score and tunes each category
-  02_make_text_data.py  picks reviews for training the text model
-results/                predictions for every product
-```
 
 ## some future plans
 
