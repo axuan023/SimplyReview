@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SimplyReview",
+  "version": "0.3.0",
+  "description": "Re-scores Amazon ratings with Bayes (Laplace's rule of succession), with a confidence range.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.amazon.ca/*",
+        "https://www.amazon.com/*"
+      ],
+      "js": ["prior.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
