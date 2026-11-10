@@ -40,9 +40,3 @@ python -m venv .venv
 this downloads the reviews, prints the results, and saves the tuned numbers to `extension/prior.js`.
 
 then load the extension: go to `chrome://extensions`, turn on dev mode, click **Load unpacked**, and choose the `extension` folder.
-
-
-## some future plans
-
-- a model that reads review text, to catch reviews like "5 stars, but it broke in a week"
-- user study: do people pick the better product with SimplyReview?
